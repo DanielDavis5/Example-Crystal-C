@@ -1,27 +1,19 @@
 # crystal-c
 
-TODO: Write a description here
+Demostrates calling a C library using Crystal.
 
-## Installation
+## How to build
 
-TODO: Write installation instructions here
+### Build the C Lib
+
+Follow the instructions in src/clib/README.md
 
 ## Usage
 
-TODO: Write usage instructions here
+### Compile the application
 
-## Development
+./scripts/build.sh
 
-TODO: Write development instructions here
+### Run the application
 
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/crystal-c/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [Daniel Maurice Davis](https://github.com/your-github-user) - creator and maintainer
+./bin/crystal-c
