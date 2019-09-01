@@ -1,6 +1,6 @@
-# TODO: Write documentation for `Crystal::C`
-module Crystal::C
-  VERSION = "0.1.0"
-
-  # TODO: Put your code here
+@[Link(ldflags: "#{__DIR__}/clib/lib/libhello.a")]
+lib LibHello
+  fun hello : Void
 end
+
+LibHello.hello
