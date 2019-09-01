@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/DanielDavis5/Autotools-HelloWorldLib
+	branch = master
+	commit = a4f3011805491f6895859aad9b43ac109c78ef73
+	parent = 42329f3460096764e69fab126d88725a177958eb
+	method = merge
+	update = auto
+	cmdver = 0.4.1
